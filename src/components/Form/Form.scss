@@ -1,0 +1,17 @@
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Form {
+  width: 400px;
+  display: none;
+  &.Active {
+  animation: fade forwards 1s;
+  display: block;
+}
+}
